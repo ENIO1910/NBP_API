@@ -1,4 +1,9 @@
 <div class="list">
+    <?php
+
+    $page = $params['page'] ?? [];
+
+    ?>
     <section>
         <div class="tbl-header">
             <table cellpadding="0" cellspacing="0" border="0">

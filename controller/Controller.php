@@ -9,8 +9,12 @@ class Controller extends AbstractController
 
 
 
-    public function indexAction()
+    public function index()
     {
+        $this->view->render(
+            'list',
+
+        );
     }
 
 }
