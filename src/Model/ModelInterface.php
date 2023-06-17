@@ -8,6 +8,8 @@ interface ModelInterface
 {
   public function list(): array;
 
+  public function count(): int;
+
   public function get(int $id): array;
 
   public function create(array $data): void;
